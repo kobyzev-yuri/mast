@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Knowledge Base
+mast_cells_kb/
+*.db
+*.sqlite3
+
+# Результаты анализа
+*_result.txt
+*_result.json
+*_analysis_result.*
+
+# Данные (большие файлы)
+data/MAST_GEMINI/*.png
+!data/MAST_GEMINI/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
