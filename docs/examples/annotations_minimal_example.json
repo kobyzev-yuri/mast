@@ -1,0 +1,25 @@
+{
+  "schema": {
+    "version": "1.0",
+    "annotation_type": "bbox",
+    "classes": ["explicit", "implicit"],
+    "bbox_format": { "x": "px", "y": "px", "w": "px", "h": "px" }
+  },
+  "items": [
+    {
+      "image": "1_yes.png",
+      "annotations": [
+        {
+          "id": "1_yes_cell1",
+          "class": "explicit",
+          "bbox": { "x": 400, "y": 300, "w": 80, "h": 90 }
+        },
+        {
+          "id": "1_yes_cell2",
+          "class": "implicit",
+          "bbox": { "x": 600, "y": 350, "w": 70, "h": 75 }
+        }
+      ]
+    }
+  ]
+}

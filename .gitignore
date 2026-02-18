@@ -23,6 +23,13 @@ mast_cells_kb/
 data/MAST_GEMINI/*.png
 !data/MAST_GEMINI/.gitkeep
 
+# Локальные тестовые данные/артефакты (не коммитим)
+data/MAST_GEMINI/test/
+data/MAST_GEMINI/test/**
+
+# Локальные результаты/отчёты
+results/
+
 # IDE
 .vscode/
 .idea/
