@@ -27,6 +27,12 @@ data/MAST_GEMINI/*.png
 data/MAST_GEMINI/test/
 data/MAST_GEMINI/test/**
 
+# Train/test данные (большие файлы изображений)
+data/train/images/
+data/test/images/
+data/train/crops/
+data/test/predictions.json
+
 # Локальные результаты/отчёты
 results/
 
